@@ -1,0 +1,44 @@
+ /* Custom Styles */
+    .container {
+      max-width: 400px;
+      margin: auto;
+      margin-top: 50px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adding shadow */
+      padding: 30px;
+      background-color: #fff;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .error-message {
+      color: #dc3545;
+    }
+    .btn-register {
+      background-color: #007bff;
+      border: none;
+    }
+    .btn-register:hover {
+      background-color: #0056b3;
+    }
+    /* Adding some padding and margin to the select element */
+    select[name="user_type"] {
+      padding: 7px;
+      margin-bottom: 20px;
+    }
+    .form-control{
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    @media(max-width:450px){
+  html{
+    font-size: 55%;
+  }
+}
+@media (max-width:450px){
+  html{
+       font-size: 50%;
+  }
+}
